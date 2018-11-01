@@ -29,7 +29,7 @@ target_link_libraries(
 
 target_include_directories(
   Radix
-  INTERFACE
+  SYSTEM INTERFACE
   ${RADIX_INCLUDE_DIRS}
 )
 
